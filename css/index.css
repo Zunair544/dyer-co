@@ -1,0 +1,83 @@
+*,body {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.main-container {
+	max-width: 684px;
+	margin:0 auto;
+}
+.main-container header {
+	border-bottom: 0.5px solid black;
+	padding: 10px 0px 20px;
+	display: grid;
+    grid-template-columns: 108px 530px;
+    grid-gap: 40px;
+}
+.main-container header div {
+	background-color: #3f87d8;
+}
+.main-container .middle-container {
+	padding: 10px 0px 0px 0px;
+	display: grid;
+    grid-template-columns: 108px 530px;
+    grid-gap: 40px;
+}
+.main-container .middle-container .menu ul {
+	list-style: none;
+}
+.main-container .middle-container .menu ul li a{
+	padding: 5px;
+	font-size: 10px;
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px solid black;
+}
+.main-container .content ul li span{
+	text-decoration: underline;
+}
+.main-container .content ul li span:hover {
+	color:blue;
+}
+.main-container .content p span{
+	text-decoration: underline;
+}
+.main-container .content p span:hover {
+	color: blue;
+}
+.main-container footer .right-p a:hover{
+	color: blue;
+}
+.main-container footer .right-p a{
+	text-decoration: underline;
+}
+.main-container .middle-container .menu ul li a:hover {
+	color: blue;
+}
+.main-container .middle-container .content {
+	margin-bottom: 30px;
+}
+.main-container .middle-container .content h5 {
+	color: #3f87d8;
+	border-bottom: 1px solid #3f87d8;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.main-container .middle-container .content p {
+	margin-bottom: 10px;
+}
+.main-container .middle-container .content ul {
+	margin-left: 16px;
+}
+.main-container footer {
+	width: 684px;
+	color: white;
+	padding: 15px;
+	background-color: grey;
+	border: 1px solid grey;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.main-container footer p{
+	float: right;
+}
